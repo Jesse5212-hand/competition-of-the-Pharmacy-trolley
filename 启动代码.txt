@@ -1,0 +1,4 @@
+roslaunch astra-camera astra.launch
+rosrun web-video-server web-video-server
+roslaunch pharmacy-pkg detect-char.py -0^c
+roslaunch pharmacy-pkg smart-pharmacy-demo-init.launch
